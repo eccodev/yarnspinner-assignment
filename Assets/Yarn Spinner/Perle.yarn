@@ -12,6 +12,8 @@ Kalle: Perle, you awake?
     -> "I didn't sleep."
        <<jump startTwo>>
 ===
+
+
 title: startOne
 position: -97,48
 ---
@@ -20,6 +22,8 @@ Kalle: Perle, get up. Look, I didn't sleep either. I was going through some of t
 Kalle: I saw a couple searchlights from some Advisors. We should go. Rodriguez is already outside.
 <<jump Two>>
 ===
+
+
 title: startTwo
 position: 116,46
 ---
@@ -28,16 +32,36 @@ position: 116,46
  Kalle: Look, I saw some Advisors patrolling the area. We're pretty well hidden here, but we should probably get moving. Rod's already outside.
  <<jump Two>>
 ===
+
+
 title: Two
 position: 12,303
 ---
 Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door. The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. This is the direction you came from, and it's not a place you feel like ever going back to.
 
-Narrator: The Great Wall is only a few blocks south, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. The rubble of a destroyed office building lays across the main southern road. Rodriguez stands atop the remains of a hovercar, surveying the path forward.
+Narrator: The Great Wall is only a few blocks south, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. The rubble of a destroyed office building lays across the main southern road. Rodriguez kneels atop the crumpled remains of a rusty hovercar nearby, surveying the path forward. He quickly turns to you and Kalle, his jackets-over-jackets and heavy rucksack ruffling softly. His distinctly Quebecois accent cuts through the chill morning air like a menthol cigarette.
 <<jump Three>>
 ===
+
+
 title: Three
 position: 12,489
 ---
-three
+Rodriguez: Ah! Kalle, Perle, <i>grande chance</i>! I think I've found a couple good routes for us to take to get to The Wall. My motion scanner isn't picking anything up in the wreckage on the south road, but the rubble will make for rough terrain. Tons of rebar poking out everywhere, like punji sticks. I do not know about you, but I'd rather keep what little blood I have left <b>inside</b> my body, well, inside. 
+
+Rodriguez: Alternatively, we could head west, but as you've probably heard, there are some Advisor drones surveying the area. I know your plas-mags are empty, but I still have plenty of bullets. My rifle is a lot louder than those pistols you two carry, so it's only risky if we don't get in and out quickly.
+
+<<jump Four>>
+===
+
+
+title: Four
+position: 12,663
+---
+greer
+===
+title: loopBack
+position: -128,896
+---
+loopBack
 ===
