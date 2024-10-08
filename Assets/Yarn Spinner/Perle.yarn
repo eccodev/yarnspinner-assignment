@@ -13,7 +13,7 @@ Kalle: Perle, you awake?
        <<jump startTwo>>
 ===
 title: startOne
-position: -90,45
+position: -97,48
 ---
 Kalle: Perle, get up. Look, I didn't sleep either. I was going through some of the data left on these old terminals, but there's nothing but tax reports.
 
@@ -31,9 +31,9 @@ position: 116,46
 title: Two
 position: 12,303
 ---
-Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door.
+Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door. The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. This is the direction you came from, and it's not a place you feel like ever going back to.
 
-Narrator: The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. The Great Wall is only a few blocks away, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. 
+Narrator: The Great Wall is only a few blocks south, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. The rubble of a destroyed office building lays across the main southern road. Rodriguez stands atop the remains of a hovercar, surveying the path forward.
 <<jump Three>>
 ===
 title: Three
