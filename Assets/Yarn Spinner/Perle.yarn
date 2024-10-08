@@ -2,14 +2,36 @@
 tags: test
 position: 9,-182
 ---
+TWO DAYS AFTER THE FAILED HEIST:
+
+Narrator: Perle is barely asleep, spooning their guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall, disturbing Perle's sleep. Kalle unplugs his datawire from a grimy terminal.
+
 Kalle: Hey, you awake?
     -> *roll over*
-        Kalle: Come on. I saw a couple Advisors around. We should move soon.
-    -> 
-    
+        <<jump startOne>>
+    -> "I didn't sleep."
+       <<jump startTwo>>
 ===
-title: Node
-position: 3,55
+title: startOne
+position: -90,45
 ---
+Kalle: Perle, get up. Look, I didn't sleep either. I was going through some of the data left on these old terminals, but there's nothing but tax reports.
 
+Kalle: I saw a couple searchlights from some Advisors. We should go. Rodriguez is already outside.
+<<jump Two>>
+===
+title: startTwo
+position: 116,46
+---
+ Kalle: Me neither. I was going through some of the data left on these old terminals, but there's nothing but tax reports.
+ 
+ Kalle: Look, I saw some Advisors patrolling the area. We're pretty well hidden here, but we should probably get moving. Rod's already outside.
+ <<jump Two>>
+===
+title: Two
+position: 12,303
+---
+Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door.
+
+Narrator: The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. The Great Wall is only a few blocks away, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. 
 ===
