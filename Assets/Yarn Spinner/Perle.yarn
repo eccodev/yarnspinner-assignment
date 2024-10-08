@@ -4,10 +4,10 @@ position: 9,-182
 ---
 TWO DAYS AFTER THE FAILED HEIST:
 
-Narrator: Perle is barely asleep, spooning their guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall, disturbing Perle's sleep. Kalle unplugs his datawire from a grimy terminal.
+Narrator: You're is barely asleep, spooning your guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall. Kalle unplugs his datawire from a grimy terminal.
 
-Kalle: Hey, you awake?
-    -> *roll over*
+Kalle: Perle, you awake?
+    -> <i>roll over</i>
         <<jump startOne>>
     -> "I didn't sleep."
        <<jump startTwo>>
@@ -34,4 +34,10 @@ position: 12,303
 Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door.
 
 Narrator: The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. The Great Wall is only a few blocks away, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. 
+<<jump Three>>
+===
+title: Three
+position: 12,489
+---
+three
 ===
