@@ -1,5 +1,15 @@
-﻿title: NewYarnScript
+﻿title: Start
 tags: test
+position: 9,-182
 ---
-test
+Kalle: Hey, you awake?
+    -> *roll over*
+        Kalle: Come on. I saw a couple Advisors around. We should move soon.
+    -> 
+    
+===
+title: Node
+position: 3,55
+---
+
 ===
