@@ -4,9 +4,9 @@ position: 9,-182
 ---
 TWO DAYS AFTER THE FAILED HEIST:
 
-Narrator: You're barely asleep, spooning your matte black electric guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall. Kalle unplugs his datawire from a grimy terminal.
+Narrator: You're barely asleep, spooning your matte black electric guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall. Kalle unplugs his datawire from a grimy terminal as your vision swims into focus.
 
-Kalle: Perle, you awake?
+Kalle: "Perle, you awake?"
     -> <i>roll over</i>
         <<jump startOne>>
     -> "I didn't sleep."
@@ -17,9 +17,9 @@ Kalle: Perle, you awake?
 title: startOne
 position: -97,48
 ---
-Kalle: Perle, get up. Look, I didn't sleep either. I was going through some of the data left on these old terminals, but there's nothing but tax reports.
+Kalle: "Perle, get up. Look, I didn't sleep either. I was going through some of the data left on these old terminals, but there's nothing but tax reports."
 
-Kalle: I saw a couple searchlights from some Advisors. We should go. Rodriguez is already outside.
+Kalle: "I saw a couple searchlights from some Advisors. We should go. Rodriguez is already outside."
 <<jump Two>>
 ===
 
@@ -27,9 +27,9 @@ Kalle: I saw a couple searchlights from some Advisors. We should go. Rodriguez i
 title: startTwo
 position: 116,46
 ---
- Kalle: Me neither. I was going through some of the data left on these old terminals, but there's nothing but tax reports.
+ Kalle: "Me neither. I was going through some of the data left on these old terminals, but there's nothing but tax reports."
  
- Kalle: Look, I saw some Advisors patrolling the area. We're pretty well hidden here, but we should probably get moving. Rod's already outside.
+ Kalle: "Look, I saw some Advisors patrolling the area. We're pretty well hidden here, but we should probably get moving. Rod's already outside."
  <<jump Two>>
 ===
 
@@ -47,9 +47,11 @@ Narrator: The Great Wall is only a few blocks south, towering hundreds of feet a
 title: Three
 position: 12,489
 ---
-Rodriguez: Ah! Kalle, Perle, <i>grande chance</i>! I think I've found a couple good routes for us to take to get to The Wall. My motion scanner isn't picking anything up in the wreckage on the Southroad, but the rubble will make for rough terrain. Tons of rebar poking out everywhere, like punji sticks. I do not know about you, but I'd rather keep what little blood I have left <b>inside</b> my body, well, inside. 
+Rodriguez: "Ah! Kalle, Perle, <i>grande chance</i>! I think I've found a couple good routes for us to take to get to The Wall. My motion scanner isn't picking anything up in the wreckage on the Southroad, but the rubble will make for rough terrain. Tons of rebar poking out everywhere, like punji sticks. I do not know about you, but I'd rather keep what little blood I have left, well, in my body."
 
-Rodriguez: Alternatively, we could head west, but as you've probably heard, there are some Advisor drones surveying the area. I know your plas-mags are empty, but I still have plenty of bullets. My rifle is a lot louder than those pistols you two carry, so it's only risky if we don't get in and out quickly.
+Rodriguez: "Alternatively, we could head west, but as you've probably heard, there are some Advisor drones surveying the area. I know your plas-mags are empty, but I still have plenty of bullets. My rifle is a lot louder than those pistols you two carry, so it's only risky if we don't get in and out quickly."
+
+Perle: "Hmm."
 
 <<jump threeDecision>>
 ===
@@ -76,19 +78,33 @@ Rodriguez: We can also head west, since the road is clear, but there are almost 
 
 ///South
 title: South
-position: -88,872
+position: -200,900
 ---
 Narrator: Rodriguez hops down to the ground, shaking his head, and beckons for you to lead the way.
 
-Narrator: You crunch through the freshly glassed asphalt of the Southroad, still subtly glowing from the bombs. Hard to believe it was hardly a year ago...
-
-Narrator: You approach the beginning of the rubble. 
+Narrator: You crunch through the glassed asphalt of the Southroad, and as you thud to the ground from a particularly slippery chunk of concrete, you realize it's still subtly glowing from the bombs. Hard to believe it was ten years ago... The path itself isn't too bad so far, despite the unexpected radiation. Kalle gives Rod a dose of iodine before helping him through massive red gurders that stab out of the ground like an effigy of hubris. Rubble now fully encapsulates the three of you.
+<<jump south2>>
 ===
 
+title: south2
+position: -200,1100
 
-/// West
-title: West
-position: 113,872
 ---
-wet
+Narrator: You approach a large column of solid concrete and rebar. The rebar jutting from the stone could serve as a makeshift ladder, but it looks perilous. Rodriguez turns to you, exhausted and pale. Going up and over will certainly be faster, as you can nearly see the base of The Great Wall in all its resplendent oppression, but finding a new route will take a long time, and Rodriguez is looking paler by the moment.
+
+Perle: "We've got two options here, I think."
+-> "Let's go over. Kalle, we can probably both carry Rod."
+<<jump southFail>>
+-> "We should find another way around. I don't think Rodriguez has the strength for this.
+<<jump southSuccess>>"
+===
+title: southFail
+position: -450,1300
+---
+:You died!
+===
+title: southSuccess
+position: -200,1300
+---
+:aw yup!
 ===
