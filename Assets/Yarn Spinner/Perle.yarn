@@ -101,7 +101,9 @@ Perle: "We've got two options here, I think."
 title: southFail
 position: -450,1300
 ---
-:You died!
+Narrator: Kalle grabs Rodriguez's left arm, and you grab his right. The two of you lift him up to a sturdy-looking platform of concrete held up by two lengths of rebar. Suddenly, the entire column of stone shifts under the unexpected weight. The ground beneath you collapses in the blink of an eye, and the last thing you see is Kalle speared through the throat on a jagged bar of rebar. Your consciousness suddenly ends with a massive crack felt on the back of your neck.
+
+Game Over: Your party died!
 ===
 title: southSuccess
 position: -200,1300
