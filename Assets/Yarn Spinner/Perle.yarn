@@ -47,7 +47,7 @@ Narrator: The Great Wall is only a few blocks south, towering hundreds of feet a
 title: Three
 position: 12,489
 ---
-Rodriguez: Ah! Kalle, Perle, <i>grande chance</i>! I think I've found a couple good routes for us to take to get to The Wall. My motion scanner isn't picking anything up in the wreckage on the south road, but the rubble will make for rough terrain. Tons of rebar poking out everywhere, like punji sticks. I do not know about you, but I'd rather keep what little blood I have left <b>inside</b> my body, well, inside. 
+Rodriguez: Ah! Kalle, Perle, <i>grande chance</i>! I think I've found a couple good routes for us to take to get to The Wall. My motion scanner isn't picking anything up in the wreckage on the Southroad, but the rubble will make for rough terrain. Tons of rebar poking out everywhere, like punji sticks. I do not know about you, but I'd rather keep what little blood I have left <b>inside</b> my body, well, inside. 
 
 Rodriguez: Alternatively, we could head west, but as you've probably heard, there are some Advisor drones surveying the area. I know your plas-mags are empty, but I still have plenty of bullets. My rifle is a lot louder than those pistols you two carry, so it's only risky if we don't get in and out quickly.
 
@@ -68,18 +68,25 @@ position: 13,679
 title: loopBack
 position: 266,594
 ---
-Rodriguez: The south road has some rough terrain due to the fallen building, but I haven't detected any movement over there. We can head south, but it will be perilous. 
+Rodriguez: The Southroad has some rough terrain due to the fallen building, but I haven't detected any movement over there. We can head south, but it will be perilous. 
 
 Rodriguez: We can also head west, since the road is clear, but there are almost certainly some Advisor drones over there. I can shoot them, but that'll make a lot of noise, so we'll wanna leave quickly.
 <<jump threeDecision>>
 ===
+
+///South
 title: South
 position: -88,872
 ---
 Narrator: Rodriguez hops down to the ground, shaking his head, and beckons for you to lead the way.
 
-Narrator: 
+Narrator: You crunch through the freshly glassed asphalt of the Southroad, still subtly glowing from the bombs. Hard to believe it was hardly a year ago...
+
+Narrator: You approach the beginning of the rubble. 
 ===
+
+
+/// West
 title: West
 position: 113,872
 ---
