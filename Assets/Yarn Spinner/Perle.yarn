@@ -3,8 +3,7 @@ tags: test
 position: 9,-182
 ---
 TWO DAYS AFTER THE FAILED HEIST: QUEST: MAKE IT TO THE GREAT WALL
-    -> test
-        <<jump threeDecision>>
+
 
 Narrator: You're barely asleep, spooning your matte black electric guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall. Kalle unplugs his datawire from a grimy terminal as your vision swims into focus.
 
