@@ -2,7 +2,7 @@
 tags: test
 position: 9,-182
 ---
-TWO DAYS AFTER THE FAILED HEIST:
+TWO DAYS AFTER THE FAILED HEIST: QUEST: MAKE IT TO THE GREAT WALL
 
 Narrator: You're barely asleep, spooning your matte black electric guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall. Kalle unplugs his datawire from a grimy terminal as your vision swims into focus.
 
@@ -35,7 +35,7 @@ position: 116,46
 
 
 title: Two
-position: 12,303
+position: 16,34
 ---
 Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door. The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. This is the direction you came from, and it's not a place you feel like ever going back to.
 
@@ -111,5 +111,11 @@ Game Over: Your party died!
 title: southSuccess
 position: -200,1300
 ---
-:aw yup!
+Narrator: Kalle and Rodriguez both nod. Your party backtracks through the jagged rock and stone, noticing a tight corridor between some destroyed hovercars that you had walked past. The three of you slip through, finding a clear path forwards directly towards the Great Wall. Rodriguez checks for any signs of movement on his datapad, but smiles and shakes his head.
+
+Rodriguez: We're on the home stretch now. Let's go.
+
+Game Over: Your party has made it to The Great Wall! Congratulations!
+-> Start Over
+<<jump Start>>
 ===
