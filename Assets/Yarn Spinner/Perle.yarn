@@ -3,6 +3,8 @@ tags: test
 position: 9,-182
 ---
 TWO DAYS AFTER THE FAILED HEIST: QUEST: MAKE IT TO THE GREAT WALL
+    -> test
+        <<jump threeDecision>>
 
 Narrator: You're barely asleep, spooning your matte black electric guitar, curled up on a military-style sleeping mat in the center of a small office room. The desks and computer terminals surrounding them are mildewed and rotting, the linoleum of the walls peeling off in chunks. A soft haze of morning light peeks through the partially crumbled northside wall. Kalle unplugs his datawire from a grimy terminal as your vision swims into focus.
 
@@ -20,7 +22,7 @@ position: -97,48
 Kalle: "Perle, get up. Look, I didn't sleep either. I was going through some of the data left on these old terminals, but there's nothing but tax reports."
 
 Kalle: "I saw a couple searchlights from some Advisors. We should go. Rodriguez is already outside."
-<<jump Two>>
+    <<jump Two>>
 ===
 
 
@@ -30,17 +32,17 @@ position: 116,46
  Kalle: "Me neither. I was going through some of the data left on these old terminals, but there's nothing but tax reports."
  
  Kalle: "Look, I saw some Advisors patrolling the area. We're pretty well hidden here, but we should probably get moving. Rod's already outside."
- <<jump Two>>
+    <<jump Two>>
 ===
 
 
 title: Two
-position: 16,34
+position: 12,277
 ---
 Narrator: Perle and Kalle pack their sleeping mats and cooking stove into their rucksacks, donning their gas masks and exiting the delapitated building from the west side. They push through a pile of broken glass and metal that was once a revolving door. The building Perle and Kalle exit from was a skyscraper long ago; only the first four floors are still intact, with the rest of the building sloughed off into a mountain of rebar and rubble to the east. This is the direction you came from, and it's not a place you feel like ever going back to.
 
 Narrator: The Great Wall is only a few blocks south, towering hundreds of feet above the carpet-bombed ruins of the Termina district of Talos Mega-City. The rubble of a destroyed office building lays across the main southern road. Rodriguez kneels atop the crumpled remains of a rusty hovercar nearby, surveying the path forward. He quickly turns to you and Kalle, his jackets-over-jackets and heavy rucksack ruffling softly. His distinctly Quebecois accent cuts through the chill morning air like a menthol cigarette.
-<<jump Three>>
+    <<jump Three>>
 ===
 
 
@@ -53,19 +55,20 @@ Rodriguez: "Alternatively, we could head west, but as you've probably heard, the
 
 Perle: "Hmm."
 
-<<jump threeDecision>>
+    <<jump threeDecision>>
+
 ===
 
 
 title: threeDecision
 position: 13,679
 ---
--> Go south and brave the dangerous terrain
-<<jump South>>
--> Go west and hope you aren't spotted
-<<jump West>>
--> Wait, what are my options?
-<<jump loopBack>>
+    -> Go south and brave the dangerous terrain
+        <<jump South>>
+    -> Go west and hope you aren't spotted
+        <<jump West>>
+    -> Wait, what are my options?
+        <<jump loopBack>>
 ===
 title: loopBack
 position: 266,594
@@ -73,49 +76,79 @@ position: 266,594
 Rodriguez: The Southroad has some rough terrain due to the fallen building, but I haven't detected any movement over there. We can head south, but it will be perilous. 
 
 Rodriguez: We can also head west, since the road is clear, but there are almost certainly some Advisor drones over there. I can shoot them, but that'll make a lot of noise, so we'll wanna leave quickly.
-<<jump threeDecision>>
+    <<jump threeDecision>>
 ===
 
 ///South
 title: South
-position: -200,900
+position: -100,900
 ---
 Narrator: Rodriguez hops down to the ground, shaking his head, and beckons for you to lead the way.
 
 Narrator: You crunch through the glassed asphalt of the Southroad, and as you thud to the ground from a particularly slippery chunk of concrete, you realize it's still subtly glowing from the bombs. Hard to believe it was ten years ago... The path itself isn't too bad so far, despite the unexpected radiation. Kalle gives Rod a dose of iodine before helping him through massive red gurders that stab out of the ground like an effigy of hubris. Rubble now fully encapsulates the three of you.
-<<jump south2>>
+    <<jump south2>>
 ===
 
 title: south2
-position: -200,1100
+position: -100,1100
 
 ---
 Narrator: You approach a large column of solid concrete and rebar. The rebar jutting from the stone could serve as a makeshift ladder, but it looks perilous. Rodriguez turns to you, exhausted and pale. Going up and over will certainly be faster, as you can nearly see the base of The Great Wall in all its resplendent oppression, but finding a new route will take a long time, and Rodriguez is looking paler by the moment.
 
 Perle: "We've got two options here, I think."
--> "Let's go over. Kalle, we can probably both carry Rod."
-<<jump southFail>>
--> "We should find another way around. I don't think Rodriguez has the strength for this.
-<<jump southSuccess>>"
+    -> "Let's go over. Kalle, we can probably both carry Rod."
+        <<jump southFail>>
+    -> "We should find another way around. I don't think Rodriguez has the strength for this.
+        <<jump southSuccess>>"
 ===
 title: southFail
-position: -450,1300
+position: -350,1225
 ---
 Narrator: Kalle grabs Rodriguez's left arm, and you grab his right. The two of you lift him up to a sturdy-looking platform of concrete held up by two lengths of rebar. Suddenly, the entire column of stone shifts under the unexpected weight. The ground beneath you collapses in the blink of an eye, and the last thing you see is Kalle and Rodriguez both speared through the throat on a jagged sword of rebar. Your consciousness suddenly ends with a massive <i><b>crack</i></b> to back of your neck.
 
 Game Over: Your party died!
 
--> Restart...
-<<jump Start>>
+    -> Restart...
+        <<jump Start>>
 ===
 title: southSuccess
-position: -200,1300
+position: -100,1300
 ---
-Narrator: Kalle and Rodriguez both nod. Your party backtracks through the jagged rock and stone, noticing a tight corridor between some destroyed hovercars that you had walked past. The three of you slip through, finding a clear path forwards directly towards the Great Wall. Rodriguez checks for any signs of movement on his datapad, but smiles and shakes his head.
+Narrator: Kalle and Rodriguez both nod. Your party backtracks through the jagged rock and stone, noticing a tight corridor between some destroyed hovercars that you had walked past. The three of you slip through, finding a clear path forwards directly towards the Great Wall. Rodriguez checks for any signs of movement on his datapad, but smiles and shakes his head. You strump a gentle chord on your guitar, causing the hovercars to be pushed apart by an electric force. Rodriguez tests the rather large width of his suit and pack against the opening, easily sliding through. He looks back to you.
 
-Rodriguez: We're on the home stretch now. Let's go.
+Rodriguez: Thanks for the assist. We're on the home stretch now. Let's go.
+
+Narrator: You've made it to the end of the road. From the base of the Great Wall, the top of it isn't even visible. Massive black panels of stone absorb the light around it, casting a shadow across everything nearby. A slim crack in the panels of oppression greet you with warm morning sunlight. It's time to move on.
 
 Game Over: Your party has made it to The Great Wall! Congratulations!
--> Start Over
-<<jump Start>>
+    -> Start Over
+        <<jump Start>>
+===
+title: West
+position: 120,900
+---
+Narrator: Rodriguez pulls his battle rifle from its holster on his pack, loading a fresh magazine and cocking the chamber with a hefty <i>cla-clunk</i>. Kalle follows suit with his plasma pistol, a <i>click</i> and a <i>hiss</i> eminating from the strange geometric contraption attached to his left forearm as a dull gray cylinder pops out from the chamber. He retrieves a green-glowing cylinder from his pocket, sliding it into the freshly vacant chamber with a <i>clack</i>. You pull your guitar from your shoulder, fingers already on a powerful chord ready to blast away anything that gets in your way.
+
+Narrator: The three of you depart from your makeshift camp, walking down the middle of the vacant road. The odd slab of concrete and twisted metal wreckage interrupts your path, but it's otherwise clear. A bit <i>too</i> clear. The closer your party approaches to the base of the Great Wall, the deeper the pit in your nanostomach sinks. The air is heavy and silent, uncrumbled buildings blocking any wind from reaching you. 
+
+    <<jump westSuccess>>
+===
+title: westSuccess
+position: 120,1100
+---
+Narrator: The silence is slowly cut by the rythmic thumping of an Advisor drone far off in the distance. Before you can react, the oppressive red lights of its visor turn green, and it flies up and away from the street ahead. You turn to Kalle, who has streams of code flashing across his eyes. He looks to you, smiling.
+
+Kalle: "Turns out there was something useful in those tax report terminals. I sent it a message, and it decided to go away I think."
+
+Perle: "Shit, nice one. That'll be handy when we get past the Wall."
+
+Rodriguez: "Fancy trick, but we can't let our guard down. Let's keep moving."
+
+Narrator: The three of you pass skyscraper after skyscraper, the purple-white morning light obscured now by the top of the massive Great Wall. The base of it is easily another five kilometers out, but you have a clear, straight path, and as you walk down the faded yellow paint on the asphalt, the stark black stone of the Wall slowly pulls into focus. Impossible pillars and sheets of interlocking alabaster black material jut from the ground. 
+
+Narrator: You've made it to the end of the road. A slim crack in the panels of oppression greet you with warm morning sunlight. It's time to move on.
+
+Game Over: Your party has made it to The Great Wall! Congratulations!
+    -> Start Over
+        <<jump Start>>
 ===
